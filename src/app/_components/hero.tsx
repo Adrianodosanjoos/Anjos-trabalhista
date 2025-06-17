@@ -29,11 +29,12 @@ export function Hero(){
                     </a>
                  </div>
 
-                 <div className='hidden md:block h-full'>
+                 <div className='hidden md:block h-full relative'>
                     <Image
                     src={logoimg}
                     alt='Foto do logo da empresa'
                     className='object-contain'
+                    fill
                     />
                  </div>
 
