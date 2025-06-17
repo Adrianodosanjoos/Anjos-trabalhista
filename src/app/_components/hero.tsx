@@ -10,6 +10,12 @@ export function Hero(){
                  </div>
 
                  <p>Somos um escritório de advocacia especializado em Direito do Trabalho, com atendimento online em toda Portugal</p>
+                      
+                 <div>
+                    <a href="http:+351911992009" target="_blank">
+                        Contacto via WhatApp
+                    </a>
+                 </div>
 
                 </article>
             </div>
