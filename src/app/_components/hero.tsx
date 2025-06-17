@@ -6,7 +6,7 @@ export function Hero(){
                 <article>
 
                  <div>
-                    <h1 className="text-3xl font-bold">
+                    <h1 className="text-3xl md:text-4xl font-semibold">
                     Precisa de um especialista <b>para conduzir o seu processo trabalhista</b>
                     </h1>
                  </div>
