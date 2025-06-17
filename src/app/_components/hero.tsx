@@ -6,6 +6,17 @@ export function Hero(){
     return(
         <section className="bg-white text-black relative overflow-hidden">
 
+            <div>
+                <Image
+                src={logoimg}
+                alt='foto de fundo'
+                fill
+                sizes='100vw'
+                priority
+                className='object-cover opacity-60'
+                />
+            </div>
+
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
@@ -36,8 +47,12 @@ export function Hero(){
                     className='object-contain'
                     fill
                     sizes='(max-width: 768px) 0px, 50vw'
+                    quality={100}
+                    priority
                     />
                  </div>
+
+
 
                 </article>
             </div>
