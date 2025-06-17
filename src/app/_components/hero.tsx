@@ -1,3 +1,4 @@
+import {WhatsappLogoIcon} from '@phosphor-icons/react/dist/ssr'
 export function Hero(){
     return(
         <section className="bg-neutral-50 text-black relative overflow-hidden">
@@ -13,13 +14,14 @@ export function Hero(){
 
                  <p className="text-lg">Somos um escritório de advocacia especializado em Direito do Trabalho, com atendimento online em toda Portugal</p>
                       
-                 <div>
+             
                     <a href="#" 
                     target="_blank"
                     className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center w-fit">
+                        <WhatsappLogoIcon />
                         Contacto via WhatApp
                     </a>
-                 </div>
+                 
 
                 </article>
             </div>
