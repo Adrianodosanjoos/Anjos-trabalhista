@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Hero(){
     return(
-        <section className="bg-neutral-50 text-black relative overflow-hidden">
+        <section className="bg-#ffff text-black relative overflow-hidden">
 
             <div className='container mx-auto py-16 px-4 relative'>
 
