@@ -11,6 +11,7 @@ export function Hero(){
                 <Image
                 src={logoimg}
                 alt='image top'
+                className='absolute top-0 right-0'
                 />
             </div>
 
@@ -21,7 +22,7 @@ export function Hero(){
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-40'
+                className='object-cover opacity-60'
                 />
             </div>
 
