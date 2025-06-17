@@ -6,7 +6,9 @@ export function Hero(){
                 <article>
 
                  <div>
+                    <h1 className="text-3xl font-bold">
                     Precisa de um especialista <b>para conduzir o seu processo trabalhista</b>
+                    </h1>
                  </div>
 
                  <p>Somos um escritório de advocacia especializado em Direito do Trabalho, com atendimento online em toda Portugal</p>
