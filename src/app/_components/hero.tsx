@@ -1,5 +1,6 @@
 import {WhatsappLogoIcon} from '@phosphor-icons/react/dist/ssr'
 import logoimg from '../../../public/1.png'
+import balaçadajustiça from '../../../public/Balançadajustiça.png'
 import Image from 'next/image'
 
 export function Hero(){
@@ -9,6 +10,13 @@ export function Hero(){
             <div>
                 <Image
                 src={logoimg}
+                alt='image top'
+                />
+            </div>
+
+            <div>
+                <Image
+                src={balaçadajustiça}
                 alt='foto de fundo'
                 fill
                 sizes='100vw'
