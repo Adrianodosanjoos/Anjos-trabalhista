@@ -11,7 +11,9 @@ export function Hero(){
                 <Image
                 src={logoimg}
                 alt='image top'
-                className='absolute top-0 right-0 w-30 h-30 lg:right-0 md:right-0 opacity-100 z-0'
+                className='absolute top-0 right-0 w-20 h-20 lg:right-0 md:right-0 opacity-100 z-0'
+                quality={100}
+                priority
                 />
             </div>
 
