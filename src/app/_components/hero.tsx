@@ -11,7 +11,7 @@ export function Hero(){
                 <Image
                 src={logoimg}
                 alt='image top'
-                className='absolute top-0 right-0 w-2 h-2 lg:right-0 md:right-0'
+                className='absolute top-0 right-0 w-40 h-40 lg:right-0 md:right-0'
                 />
             </div>
 
