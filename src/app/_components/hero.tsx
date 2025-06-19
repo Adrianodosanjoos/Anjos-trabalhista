@@ -7,13 +7,13 @@ export function Hero(){
     return(
         <section className="bg-white text-black relative overflow-hidden">
           
-            <div className="flex absolute lg:right-0 md:right-0 w-10 h-10">
+            <div className="flex">
 
 
                 <Image
                 src={logoimg}
                 alt='image top'
-                className='absolute top-0 right-0 w-10 h-10'
+                className='absolute lg:right-0 md:right-0 w-2 h-2'
                 />
             </div>
 
