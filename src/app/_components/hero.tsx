@@ -8,12 +8,10 @@ export function Hero(){
         <section className="bg-white text-black relative overflow-hidden">
           
             <div className="flex">
-
-
                 <Image
                 src={logoimg}
                 alt='image top'
-                className='absolute lg:right-0 md:right-0 w-2 h-2'
+                className='absolute top-0 right-0 w-2 h-2 lg:right-0 md:right-0'
                 />
             </div>
 
