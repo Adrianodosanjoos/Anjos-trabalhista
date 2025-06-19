@@ -7,11 +7,11 @@ export function Hero(){
     return(
         <section className="bg-white text-black relative overflow-hidden">
           
-            <div>
+            <div className='hidden md:block'>
                 <Image
                 src={logoimg}
                 alt='image top'
-                className='absolute top-0 right-0 w-25 md:block'
+                className='absolute top-0 right-0 w-25'
                 quality={100}
                 priority
                 />
