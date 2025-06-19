@@ -7,11 +7,11 @@ export function Hero(){
     return(
         <section className="bg-white text-black relative overflow-hidden">
           
-            <div className="flex">
+            <div>
                 <Image
                 src={logoimg}
                 alt='image top'
-                className='absolute top-0 right-0 w-25 h-25 lg:right-0 md:right-0 filter saturate-200 contrast-125'
+                className='absolute top-0 right-0 w-25 lg:right-0 md:right-0 filter saturate-200 contrast-125'
                 quality={100}
                 priority
                 />
