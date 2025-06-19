@@ -17,7 +17,7 @@ export function Hero(){
                 />
             </div>
 
-            <div>
+            <div className='block md:hidden lg:none relative'>
                 <Image
                 src={balaçadajustiça}
                 alt='foto de fundo'
