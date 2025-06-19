@@ -7,7 +7,7 @@ export function Hero(){
     return(
         <section className="bg-white text-black relative overflow-hidden">
           
-            <div className='flex md:block lg:block relative'>
+            <div className='hidden md:block lg:block relative'>
                 <Image
                 src={logoimg}
                 alt='image top'
