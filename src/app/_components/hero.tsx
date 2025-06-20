@@ -26,7 +26,7 @@ export function Hero(){
                 priority
                 className='object-cover opacity-60 lg:hidden'
                 />
-                  <div className=' absolute inset-0 bg-black  opacity-40'></div>
+                  <div className=' absolute inset-0 bg-black  opacity-10'></div>
             </div>
 
           
