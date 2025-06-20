@@ -28,6 +28,8 @@ export function Hero(){
                 />
             </div>
 
+            <div className=' absolute inset-0 bg-black  opacity-40.'></div>
+
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
