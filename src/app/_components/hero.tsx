@@ -7,7 +7,7 @@ export function Hero(){
     return(
         <section className="bg-white text-black relative overflow-hidden">
           
-            <div className='block md:hidden lg:hidden relative bg-white'>
+            <div className='block md:hidden relative bg-white'>
                 <Image
                 src={logoimg}
                 alt='image top'
@@ -24,9 +24,9 @@ export function Hero(){
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-60 lg:hidden'
+                className='object-cover opacity-60 md:hidden'
                 />
-                  <div className=' absolute inset-0 bg-black  opacity-5 lg:hidden'></div>
+                  <div className=' absolute inset-0 bg-black  opacity-5 md:hidden'></div>
             </div>
 
           
