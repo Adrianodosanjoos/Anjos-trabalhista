@@ -9,6 +9,7 @@ export function About() {
         items-end">
             
             <div className="relative">
+
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
                 <Image
                 src={sobreImg}
@@ -20,7 +21,7 @@ export function About() {
                 />
             </div>
 
-              <div className="absolute w-40 h-40 right-4 -bottom-8">
+              <div className="absolute w-10 h-10 right-4 -bottom-38">
                 <Image
                 src={logoImg}
                 alt="Sobre imagem"
