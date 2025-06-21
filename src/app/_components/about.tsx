@@ -14,7 +14,7 @@ export function About() {
                 alt="Sobre imagem"
                 fill
                 quality={100}
-                className="object-cover hover:scale-110 duration-300"
+                className="object-cover hover:scale-105 duration-300"
                 priority
                 />
             </div>
