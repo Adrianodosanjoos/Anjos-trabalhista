@@ -45,7 +45,7 @@ export function About() {
 
                  <ul className="space-y-4">
                   <li>
-                    <Check className="text-red-600"/>
+                    <Check className="text-red-600 font-bold"/>
                     Atendendo deste de 2015
                   </li>
                  </ul>
