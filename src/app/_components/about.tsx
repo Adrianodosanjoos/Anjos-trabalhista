@@ -21,7 +21,7 @@ export function About() {
                 />
             </div>
 
-              <div className="absolute w-10 h-10 right-4 -bottom-38">
+              <div className="absolute w-10 h-10 right-4 -bottom-2">
                 <Image
                 src={logoImg}
                 alt="Sobre imagem"
