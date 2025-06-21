@@ -1,6 +1,7 @@
 import Image from "next/image"
 import logoImg from '../../../public/1.png'
 import sobreImg from '../../../public/foto.png'
+import { Check, CheckCircleIcon } from "@phosphor-icons/react"
 
 export function About() {
     return(
@@ -32,6 +33,22 @@ export function About() {
                 />
             </div>
 
+            </div>
+
+            <div className="space-y-6">
+                 <h2 className="text-4xl font-bold">Sobre</h2>
+
+                 <p>
+                    Somos um escritório de advocacia especializado em Direito do Trabalho, com atendimento online em todo Portugal
+                 </p>
+
+                 <ul className="space-y-4">
+                  <li>
+                    <Check />
+                    <CheckCircleIcon />
+                    Atendendo deste de 2015
+                  </li>
+                 </ul>
             </div>
 
         </div>
