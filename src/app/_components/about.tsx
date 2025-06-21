@@ -1,6 +1,7 @@
 import Image from "next/image"
 import logoImg from '../../../public/1.png'
 import sobreImg from '../../../public/foto.png'
+import { Check } from "@phosphor-icons/react/dist/ssr"
 
 
 export function About() {
@@ -35,7 +36,7 @@ export function About() {
 
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-6 text-black">
                  <h2 className="text-4xl font-bold">Sobre</h2>
 
                  <p>
@@ -44,7 +45,7 @@ export function About() {
 
                  <ul className="space-y-4">
                   <li>
-                    
+                    <Check/>
                     Atendendo deste de 2015
                   </li>
                  </ul>
