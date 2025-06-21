@@ -40,12 +40,12 @@ export function About() {
                  <h2 className="text-4xl font-bold">Sobre</h2>
 
                  <p>
-                    Somos um escritório de advocacia especializado em Direito do Trabalho, com atendimento online em todo Portugal
+                    Somos um escritório de advocacia especializado em Direito do Trabalho, com atendimento online em toda Portugal
                  </p>
 
                  <ul className="space-y-4">
                   <li>
-                    <Check/>
+                    <Check className="text-red-600"/>
                     Atendendo deste de 2015
                   </li>
                  </ul>
