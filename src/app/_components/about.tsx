@@ -1,6 +1,6 @@
 import Image from "next/image"
-import sobreImg from '../../../public/1.png'
-import logoImg from '../../../public/foto.png'
+import logoImg from '../../../public/1.png'
+import sobreImg from '../../../public/foto.png'
 
 export function About() {
     return(
