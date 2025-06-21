@@ -1,7 +1,7 @@
 import Image from "next/image"
 import logoImg from '../../../public/1.png'
 import sobreImg from '../../../public/foto.png'
-import { Check, CheckCircleIcon } from "@phosphor-icons/react"
+import {CheckCircleIcon } from "@phosphor-icons/react"
 
 export function About() {
     return(
@@ -44,7 +44,6 @@ export function About() {
 
                  <ul className="space-y-4">
                   <li>
-                    <Check />
                     <CheckCircleIcon />
                     Atendendo deste de 2015
                   </li>
