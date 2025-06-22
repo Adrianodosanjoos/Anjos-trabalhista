@@ -44,9 +44,21 @@ export function About() {
                  </p>
 
                  <ul className="space-y-4">
-                  <li>
-                    <Check className="text-red-600 font-bold"/>
-                    Atendendo deste de 2015
+                  <li className="flex items-center gap-2">
+                    <Check className="text-red-500 font-bold"/>
+                    Atendendo deste de 2010
+                  </li>
+                     <li className="flex items-center gap-2">
+                    <Check className="text-red-500 font-bold"/>
+                    Equipe com + 10 Advogados Associados
+                  </li>
+                   <li className="flex items-center gap-2">
+                    <Check className="text-red-500 font-bold"/>
+                   <b>+ 5000</b> Clientes atendidos
+                  </li>
+                    <li className="flex items-center gap-2">
+                    <Check className="text-red-500 font-bold"/>
+                    <b>+ 110</b> Depoimentos
                   </li>
                  </ul>
             </div>
