@@ -38,7 +38,7 @@ export function About() {
             </div>
 
             <div className="space-y-6 text-black mt-10">
-                 <h2 className="text-4xl font-bold items-center justify-center">Sobre</h2>
+                 <h2 className="text-4xl font-bold text-center">Sobre</h2>
 
                  <p>
                     Somos um escritório de advocacia especializado em Direito do Trabalho, com atendimento online em toda Portugal
