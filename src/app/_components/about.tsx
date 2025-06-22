@@ -2,6 +2,7 @@ import Image from "next/image"
 import logoImg from '../../../public/1.png'
 import sobreImg from '../../../public/foto.png'
 import { Check } from "@phosphor-icons/react/dist/ssr"
+import {WhatsappLogoIcon} from '@phosphor-icons/react/dist/ssr'
 
 
 export function About() {
@@ -61,6 +62,11 @@ export function About() {
                     <b>+ 110</b> Depoimentos
                   </li>
                  </ul>
+
+                 <a href="h#" target="_blank">
+                    <WhatsappLogoIcon className='w-5 h-5' />
+                    Contacto via WhatsApp
+                    </a>
             </div>
 
         </div>
