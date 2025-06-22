@@ -8,7 +8,7 @@ import {WhatsappLogoIcon} from '@phosphor-icons/react/dist/ssr'
 export function About() {
     return(
       <section className="py-16">
-        <div className="container px-4 mx-auto grid-cols-1 lg:grid-cols-2 gap-12
+        <div className="container mx-auto grid-cols-1 lg:grid-cols-2 gap-12
         items-end">
             
             <div className="relative">
@@ -37,7 +37,7 @@ export function About() {
 
             </div>
 
-            <div className="space-y-6 text-black mt-10">
+            <div className="space-y-6 text-black mt-10 px-4">
                  <h2 className="text-4xl font-bold text-center lg:hidden">Sobre</h2>
 
                  <p>
