@@ -4,7 +4,7 @@ export function Depoimentos(){
     return( 
         <section>
 
-            <h2> Depoimentos </h2>
+            <h2 className="text-black"> Depoimentos </h2>
 
         </section>
     ) }
