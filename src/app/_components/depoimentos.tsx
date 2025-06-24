@@ -1,7 +1,22 @@
-'use client'
+'use client';
 
-import useEmblaCarousel from 'embla-carousel-react'
-import { ChevronLeft, ChevronRight} from 'lucide-react'
+import useEmblaCarousel from 'embla-carousel-react';
+import { ChevronLeft, ChevronRight} from 'lucide-react';
+import Bruna  from "../../../public/1 (2).png";
+import Carla  from "../../../public/2.jpg";
+
+const depoimentos = [
+   {
+    name: "Bruna Carvalho",
+     image: Bruna,
+     description: "Fiquei muito satisfeita com o desfecho e sua atuação foi fundamental para isso."
+   },
+    {
+    name: "Carla Sofia",
+     image: Bruna,
+     description: "A organização e pontualidade no atendimento foram impecáveis."
+   },
+]
 
 export function Depoimentos(){
     return( 
