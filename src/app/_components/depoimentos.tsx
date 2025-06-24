@@ -23,7 +23,7 @@ import Luis from "../../../public/17.jpg";
 const depoimentos = [
    {
     name: "Bruna Carvalho",
-     image: Bruna,
+     img: Bruna,
      description: "Fiquei muito satisfeita com o desfecho e sua atuação foi fundamental para isso."
    },
     {
