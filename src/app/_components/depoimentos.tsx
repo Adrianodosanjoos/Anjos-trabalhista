@@ -105,7 +105,7 @@ const depoimentos = [
     {
         name: "Luis Gustavo",
         image: Luis,
-        description: - "Sua capacidade de explicar termos jurídicos de forma clara fez toda a diferença."
+        description: "Sua capacidade de explicar termos jurídicos de forma clara fez toda a diferença."
 
     },
 
