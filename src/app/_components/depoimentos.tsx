@@ -118,7 +118,12 @@ export function Depoimentos() {
 
     const [emblaRef, emblaApi] = useEmblaCarousel({
 
-        loop: true
+        loop: true,
+        align: "start",
+        slidesToScroll: 1,
+        breakpoints: {
+            "(min-width: 768px)": {slidesToScroll: 3}
+        }
     })
 
 
@@ -132,7 +137,7 @@ export function Depoimentos() {
 
 
     return (
-        <section className="bg-black  py-16  max-h-1/2-50px">
+        <section className="py-16  max-h-1/2-50px">
             <div className="container  mx-auto px-4">
 
 
