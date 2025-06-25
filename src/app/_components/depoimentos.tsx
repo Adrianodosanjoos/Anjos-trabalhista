@@ -149,9 +149,9 @@ export function Depoimentos() {
 
                                         <div className='flex flex-col items-center justify-center text-center space-y-4 h-full'>
                                             <div className='relative w-24 h-24'>
-                                               <img  src={item.image}
+                                               <img  src ={item.image?.src}
                                                     alt='foto do depoimento'
-                                                    quality={100}
+                                                    
                                                     className='select-none container h-64'/>
                                             </div>
 
