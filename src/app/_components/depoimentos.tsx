@@ -155,6 +155,7 @@ export function Depoimentos() {
                                             <div className='relative w-24 h-24'>
                                                 <img src={item.image?.src}
                                                     alt='foto do depoimento'
+                                                       className='relative rounded-full'
                                                 />
                                 
                                             </div>
