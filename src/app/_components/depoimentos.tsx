@@ -152,10 +152,10 @@ export function Depoimentos() {
                                    flex flex-col'>
 
                                         <div className='flex-1 flex items-start justify-between'>
-                                            <div className='relative w-24 h-24 items-center content-center'>
+                                            <div className='relative w-24 h-24 items-center '>
                                                 <img src={item.image?.src}
                                                     alt='foto do depoimento'
-                                                       className='relative rounded-full items-center content-center'
+                                                       className='relative rounded-full items-center'
                                                 />
                                 
                                             </div>
