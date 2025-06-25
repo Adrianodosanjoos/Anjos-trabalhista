@@ -152,7 +152,7 @@ export function Depoimentos() {
                                     <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4
                                    flex flex-col'>
 
-                                        <div className='flex flex-col items-center justify-center text-center space-y-4 h-full'>
+                                        <div key={index} className='flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3'>
                                             <div className='relative w-24 h-24'>
                                                <img  src ={item.image?.src}
                                                     alt='foto do depoimento'
