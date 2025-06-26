@@ -141,14 +141,14 @@ export function Depoimentos() {
         <section className="py-16  max-h-1/2-50px">
             <div className="container  mx-auto px-4">
 
-                <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center" data-aos="fade-up-right">Depoimentos</h3>
+                <h3 className="font-serif text-3xl text-black mb-12 flex align-text-center justify-center" data-aos="fade-up-right">Depoimentos</h3>
 
                 <div className='relative'>
                     
                     <div className='overflow-hidden' ref={emblaRef}>
                         <div className='flex'>
                             {depoimentos.map((item, index) => (
-                                <div key={index} className=' flex-[0_0_100%] min-w-0 px-3 md:flex-[0_0_100%/3]'>
+                                <div key={index} className=' flex-[0_0_100%] min-w-0 md:flex-[0_0_100%/3] px-3'>
                                     <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4
                                    flex flex-col'>
 
