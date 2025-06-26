@@ -141,7 +141,7 @@ export function Depoimentos() {
         <section className="py-16  max-h-1/2-50px">
             <div className="container  mx-auto px-4">
 
-                <h3 className="font-serif text-3xl text-black mb-12 flex align-text-center justify-center" data-aos="fade-up-right">Depoimentos</h3>
+                <h3 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center" data-aos="fade-up-right">Depoimentos</h3>
 
                 <div className='relative'>
                     
