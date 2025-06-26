@@ -152,11 +152,11 @@ export function Depoimentos() {
                                     <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4
                                    flex flex-col'>
 
-                                        <div className='flex-1 flex items-start justify-between'>
-                                            <div className='flex max-w-14 max-h-14 items-center '>
+                                        <div className='flex-1 flex items-start justify-center'>
+                                            <div className='flex'>
                                                 <img src={item.image?.src}
                                                     alt='foto do depoimento'
-                                                       className='flex rounded-full items-center'
+                                                       className='rounded-full  max-w-14 max-h-14 items-center '
                                                 />
                                 
                                             </div>
