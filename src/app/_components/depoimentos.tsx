@@ -182,7 +182,7 @@ export function Depoimentos() {
                 </div>
 
                 <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-8 
-                   -translate-y-1/2 -translate-x-1/2 top-1/3 z-10 cursor-pointer'
+                   -translate-y-1/2 -translate-x-1/2 top-3/3 z-10 cursor-pointer'
                     onClick={scrollPrev}
                 >
                     <ChevronLeft
@@ -191,7 +191,7 @@ export function Depoimentos() {
                 </button>
 
                 <button className='bg-white  flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-4
-                   -translate-y-1/2 -translate-x-1/2 top-0.5/2 z-10 cursor-pointer'
+                   -translate-y-1/2 -translate-x-1/2 top-2/3 z-10 cursor-pointer'
                     onClick={scrollNext}
                 >
                     <ChevronRight
