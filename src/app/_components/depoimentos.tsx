@@ -2,6 +2,7 @@
 
 import useEmblaCarousel from 'embla-carousel-react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+
 import Bruna from "../../../public/1 (2).png";
 import Carla from "../../../public/2.jpg";
 import Douglas from "../../../public/3.png";
@@ -84,7 +85,7 @@ const depoimentos = [
     {
         name: "Lourdes Teresa",
         image: Lourdes,
-        description: - "Gostei do profissionalismo com que lidou com todas as etapas do processo."
+        description: "Gostei do profissionalismo com que lidou com todas as etapas do processo."
 
     },
     {
@@ -155,7 +156,7 @@ export function Depoimentos() {
                                             <div className='relative w-24 h-24 items-center '>
                                                 <img src={item.image?.src}
                                                     alt='foto do depoimento'
-                                                       className='relative rounded-full items-center'
+                                                       className='flex rounded-full items-center'
                                                 />
                                 
                                             </div>
