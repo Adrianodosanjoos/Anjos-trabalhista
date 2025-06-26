@@ -145,7 +145,7 @@ export function Depoimentos() {
 
                 <div className='relative'>
                     
-                    <div className='overflow-hidden' ref={emblaRef} data-aos="fade-up-left">
+                    <div className='overflow-hidden' ref={emblaRef}>
                         <div className='flex'>
                             {depoimentos.map((item, index) => (
                                 <div key={index} className=' flex-[0_0_100%] min-w-0 px-3 md-flex md-items-center md-justify-center'>
