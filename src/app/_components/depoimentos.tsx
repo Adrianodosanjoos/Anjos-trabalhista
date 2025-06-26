@@ -164,7 +164,7 @@ export function Depoimentos() {
 
                                         </div>
 
-                                        <div className='border-t border-gray-700 pt-4  justify-center'>
+                                        <div className='border-t border-gray-700 pt-4  text-center'>
                                             <p className='font-bold font-serif text-xl'>{item.name}</p>
                                         </div>
 
