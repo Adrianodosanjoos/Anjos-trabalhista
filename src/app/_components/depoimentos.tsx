@@ -165,10 +165,10 @@ export function Depoimentos() {
                                         </div>
 
                                         <div className='border-t border-gray-700 pt-4  text-center'>
-                                            <p className='font-bold font-serif text-xl'>{item.name}</p>
+                                            <p className='font-bold font-serif text-xl select-none'>{item.name}</p>
                                         </div>
 
-                                        <div className='border-t border-gray-700 pt-4'>
+                                        <div className='border-t border-gray-700 pt-4 select-none'>
                                             <p className='font-bold font-serif'>{item.description}</p>
                                         </div>
 
