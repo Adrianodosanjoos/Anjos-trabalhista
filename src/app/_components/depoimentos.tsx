@@ -181,7 +181,7 @@ export function Depoimentos() {
                     </div>
                 </div>
 
-                <div className='relative mb-28'>
+                <div className='relative mb-28 z-20'>
 
                 <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-8 
                    -translate-y-1/2 -translate-x-1/2 mb-96 z-10 cursor-pointer'
