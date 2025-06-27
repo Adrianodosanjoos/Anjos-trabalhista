@@ -3,7 +3,7 @@
 export function Contactos() {
 
    return (
-    <h1>Contactos</h1>
+    <h1 className="text-black">Contactos</h1>
    )
 
 }
