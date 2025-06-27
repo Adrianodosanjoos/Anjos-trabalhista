@@ -181,6 +181,8 @@ export function Depoimentos() {
                     </div>
                 </div>
 
+                <div className='absolute'>
+
                 <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-8 
                    -translate-y-1/2 -translate-x-1/2 top-7/3 md:top-5/3 z-10 cursor-pointer'
                     onClick={scrollPrev}
@@ -198,7 +200,7 @@ export function Depoimentos() {
                         className='w-6 h-6 text-black'
                     />
                 </button>
-
+             </div>
 
             </div>
 
