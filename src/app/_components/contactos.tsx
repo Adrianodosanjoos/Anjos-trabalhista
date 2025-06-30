@@ -6,7 +6,7 @@ import Image from 'next/image'
 export function Contactos() {
 
    return ( 
-      <section className="py-16  max-h-1/2-50px">
+      <section className="py-16 relative  max-h-1/2-50px">
       <div>
     <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center">Conte conosco</h1>
 
@@ -26,7 +26,7 @@ export function Contactos() {
                 src={logoimg}
                 alt='foto de fundo'
                 fill
-                sizes='20vw'
+                sizes='100vw'
                 priority
                 className='object-cover opacity-60 mt-96'
                 />
