@@ -6,6 +6,7 @@ import Image from 'next/image'
 export function Contactos() {
 
    return ( 
+      <section className="py-16  max-h-1/2-50px">
       <div>
     <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center">Conte conosco</h1>
 
@@ -27,7 +28,7 @@ export function Contactos() {
                 fill
                 sizes='20vw'
                 priority
-                className='object-cover opacity-60 mt-28'
+                className='object-cover opacity-60'
                 />
                   <div className=' absolute inset-0 bg-black  opacity-5 '></div>
             </div>
@@ -35,7 +36,7 @@ export function Contactos() {
 
     </div>
     
-
+    </section>
    )
 
 
