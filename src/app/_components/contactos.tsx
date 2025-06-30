@@ -1,11 +1,13 @@
 'use client'
 import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr'
+import logoimg from '../../../public/1.png'
+import Image from 'next/image'
 
 export function Contactos() {
 
    return ( 
       <div>
-    <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center">Contactos</h1>
+    <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center">Conte conosco</h1>
 
     <div>
        <a href="#"
@@ -16,6 +18,21 @@ export function Contactos() {
                             Contacto via WhatApp
                         </a>
     </div>
+
+          
+               <div>
+                <Image
+                src={logoimg}
+                alt='foto de fundo'
+                fill
+                sizes='100vw'
+                priority
+                className='object-cover opacity-60 '
+                />
+                  <div className=' absolute inset-0 bg-black  opacity-5 '></div>
+            </div>
+           
+
     </div>
     
 
