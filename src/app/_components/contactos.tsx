@@ -9,14 +9,14 @@ export function Contactos() {
       <section className="py-16 relative  max-h-1/2-50px">
       <div>
 
-                <div className='-z-10'>
+                <div className=''>
                 <Image
                 src={logoimg}
                 alt='foto de fundo'
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-60 mt-96'
+                className='object-cover opacity-60'
                 />
                   <div className=' absolute inset-0 bg-black  opacity-5 '></div>
             </div>
