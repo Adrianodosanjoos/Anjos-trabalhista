@@ -14,7 +14,7 @@ export function Contactos() {
                 src={logoimg}
                 alt='foto de fundo'
                 fill
-                sizes='100vw'
+                sizes='(max-width: 768px) 0px, 50vw'
                 priority
                 className='object-cover opacity-60 relative'
               
