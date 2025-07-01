@@ -16,7 +16,8 @@ export function Contactos() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-60'
+                className='object-cover opacity-60 relative'
+              
                 />
                   <div className=' absolute inset-0 bg-black  opacity-5 '></div>
             </div>
