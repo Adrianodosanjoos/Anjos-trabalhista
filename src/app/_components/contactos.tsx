@@ -9,7 +9,7 @@ export function Contactos() {
       <section className="py-16 relative  max-h-1/2-50px">
       <div>
 
-                <div className=''>
+                <div className='-z-10'>
                 <Image
                 src={logoimg}
                 alt='foto de fundo'
