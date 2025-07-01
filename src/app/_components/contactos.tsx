@@ -13,12 +13,12 @@ export function Contactos() {
                 src={logoimg}
                 alt='foto de fundo'
                 fill
-                sizes='(max-width: 768px) 0px, 50vw'
+                sizes='100vw'
                 priority
                 className='object-cover opacity-60 relative'
               
                 />
-                  <div className=' absolute inset-0 bg-black  opacity-5 '></div>
+                  <div className=' absolute inset-0 bg-black  opacity-40 '></div>
             </div>
 
       <div>
