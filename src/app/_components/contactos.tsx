@@ -6,7 +6,7 @@ import Image from 'next/image'
 export function Contactos() {
 
    return ( 
-      <section className="relative  overflow-hidden">
+      <section className="py-16 relative  max-h-1/2-50px">
 
           <div className='block h-full'>
                 <Image
