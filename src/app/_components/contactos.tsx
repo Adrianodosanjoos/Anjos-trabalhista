@@ -9,7 +9,7 @@ export function Contactos() {
       <section className="py-16 relative  max-h-1/2-50px">
       <div>
 
-                <div className='-z-10'>
+                <div className=''>
                 <Image
                 src={logoimg}
                 alt='foto de fundo'
@@ -22,7 +22,7 @@ export function Contactos() {
             </div>
            
 
-    <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center z-10">Conte conosco</h1>
+    <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center">Conte conosco</h1>
 
     <div>
        <a href="#"
