@@ -18,10 +18,10 @@ export function Contactos() {
                 className='object-cover opacity-60 relative'
               
                 />
-                  <div className=' '></div>
+                  <div className=' absolute'></div>
             </div>
 
-      
+    
     
     </section>
    )
