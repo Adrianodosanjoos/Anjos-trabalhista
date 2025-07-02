@@ -5,35 +5,36 @@ import Image from 'next/image'
 
 export function Contactos() {
 
-   return (
-
+   return ( 
       <section className="py-16 relative  max-h-1/2-50px">
+      <div>
 
-         <h2 className='text-black font-bold'>Conte Conosco</h2>
-
-          <div className='block h-full'>
+                <div className=''>
                 <Image
                 src={logoimg}
                 alt='foto de fundo'
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-60 relative'
-              
+                className='object-cover opacity-60'
                 />
-                  <div className=' absolute'></div>
-                  <h2 className='text-black font-bold'>Conte Conosco</h2>
+                  <div className=' absolute inset-0 bg-black  opacity-5 '></div>
             </div>
+           
 
-      <div>
-         
-    <h1 className="text-3xl text-black font-bold mb-12 align-text-center"></h1>
+    <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center absolute">Conte conosco</h1>
 
-    <h2 className='text-black font-bold absolute'>Conte Conosco</h2>
-
+    <div>
+       <a href="#"
+                            target="_blank"
+                            className="bg-green-500 px-5 py-2 rounded-md font-semibold absolute
+                    flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300">
+                            <WhatsappLogoIcon className='w-5 h-5' />
+                            Contacto via WhatApp
+                        </a>
     </div>
 
-   
+    </div>
     
     </section>
    )
