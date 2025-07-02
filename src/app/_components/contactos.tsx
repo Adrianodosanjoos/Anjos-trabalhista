@@ -31,7 +31,7 @@ export function Contactos() {
        <a href="#"
                             target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold 
-                    flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300 opacity-10">
+                    flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300 opacity-90">
                             <WhatsappLogoIcon className='w-5 h-5' />
                             Contacto via WhatApp
                         </a>
