@@ -24,7 +24,7 @@ export function Contactos() {
 
    
     <div>
-             <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center absolute">Conte conosco</h1>
+             <h1 className="text-3xl text-black font-bold flex align-text-center absolute">Conte conosco</h1>
 
 
        <a href="#"
