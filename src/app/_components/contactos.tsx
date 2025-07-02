@@ -23,13 +23,14 @@ export function Contactos() {
            
 
    
-    <div>
-             <h1 className="text-3xl text-black font-bold flex align-text-center absolute">Conte conosco</h1>
+    <div className='absolute'>
+      
+             <h1 className="text-3xl text-black font-bold align-text-center">Conte conosco</h1>
 
 
        <a href="#"
                             target="_blank"
-                            className="bg-green-500 px-5 py-2 rounded-md font-semibold absolute
+                            className="bg-green-500 px-5 py-2 rounded-md font-semibold 
                     flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300">
                             <WhatsappLogoIcon className='w-5 h-5' />
                             Contacto via WhatApp
