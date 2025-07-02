@@ -7,7 +7,7 @@ export function Hero(){
     return(
         <section className="bg-white text-black relative overflow-hidden">
           
-            <div className=' md:hidden absolute bg-white'>
+            <div className=' md:hidden relative bg-white'>
                 <Image
                 src={logoimg}
                 alt='image top'
