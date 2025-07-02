@@ -23,7 +23,7 @@ export function Contactos() {
            
 
    
-    <div className='relative right-10'>
+    <div className='relative left-10'>
 
              <h1 className="text-3xl text-black font-bold flex">Conte conosco</h1>
 
