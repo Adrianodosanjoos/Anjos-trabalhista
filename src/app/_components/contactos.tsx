@@ -25,7 +25,7 @@ export function Contactos() {
    
     <div className='relative flex itens-center'>
 
-             <h1 className="text-3xl text-black font-bold flex">Conte conosco</h1>
+             <h1 className="text-3xl text-black font-bold text-center">Conte conosco</h1>
 
 
        <a href="#"
