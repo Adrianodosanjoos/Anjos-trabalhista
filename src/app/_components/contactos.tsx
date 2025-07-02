@@ -23,7 +23,7 @@ export function Contactos() {
            
 
    
-    <div className='relative flex itens-center mx-aut py-2.5 md:justify-center md:gap-5'>
+    <div className='relative flex mx-aut py-2.5 justify-center md:gap-10'>
 
              <h1 className="text-3xl text-black font-bold text-center">Conte conosco</h1>
 
