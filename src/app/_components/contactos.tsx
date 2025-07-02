@@ -25,8 +25,9 @@ export function Contactos() {
          
     <h1 className="text-3xl text-black font-bold mb-12 align-text-center"></h1>
 
-
     </div>
+
+    <h2>Conte Conosco</h2>
     
     </section>
    )
