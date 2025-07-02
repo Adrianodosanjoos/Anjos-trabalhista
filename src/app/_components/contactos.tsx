@@ -27,7 +27,7 @@ export function Contactos() {
 
     </div>
 
-    <h2>Conte Conosco</h2>
+    <h2 className='text-black font-bold'>Conte Conosco</h2>
     
     </section>
    )
