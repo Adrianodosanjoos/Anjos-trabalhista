@@ -25,13 +25,13 @@ export function Contactos() {
    
     <div className='relative'>
 
-             <h1 className="text-3xl text-black font-bold flex text-center">Conte conosco</h1>
+             <h1 className="text-3xl text-black font-bold flex right-10">Conte conosco</h1>
 
 
        <a href="#"
                             target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold 
-                    flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300">
+                    flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300 left-10">
                             <WhatsappLogoIcon className='w-5 h-5' />
                             Contacto via WhatApp
                         </a>
