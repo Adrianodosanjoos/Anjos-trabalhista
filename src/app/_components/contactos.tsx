@@ -5,7 +5,8 @@ import Image from 'next/image'
 
 export function Contactos() {
 
-   return ( 
+   return (
+
       <section className="py-16 relative  max-h-1/2-50px">
 
          <h2 className='text-black font-bold'>Conte Conosco</h2>
@@ -28,7 +29,7 @@ export function Contactos() {
          
     <h1 className="text-3xl text-black font-bold mb-12 align-text-center"></h1>
 
-    <h2 className='text-black font-bold'>Conte Conosco</h2>
+    <h2 className='text-black font-bold absolute'>Conte Conosco</h2>
 
     </div>
 
