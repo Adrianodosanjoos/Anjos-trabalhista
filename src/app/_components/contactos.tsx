@@ -18,24 +18,10 @@ export function Contactos() {
                 className='object-cover opacity-60 relative'
               
                 />
-                  <div className=' absolute inset-0 bg-black  opacity-40 '></div>
+                  <div className=' '></div>
             </div>
 
-      <div>
-         
-    <h1 className="text-3xl text-black font-bold mb-12 flex align-text-center justify-center z-10">Conte conosco</h1>
-
-    <div>
-       <a href="#"
-                            target="_blank"
-                            className="bg-green-500 px-5 py-2 rounded-md font-semibold 
-                    flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300">
-                            <WhatsappLogoIcon className='w-5 h-5' />
-                            Contacto via WhatApp
-                        </a>
-    </div>
-
-    </div>
+      
     
     </section>
    )
