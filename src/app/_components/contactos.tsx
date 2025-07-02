@@ -23,7 +23,7 @@ export function Contactos() {
            
 
    
-    <div className='relative flex content-center'>
+    <div className='relative flex itens-center'>
 
              <h1 className="text-3xl text-black font-bold flex">Conte conosco</h1>
 
