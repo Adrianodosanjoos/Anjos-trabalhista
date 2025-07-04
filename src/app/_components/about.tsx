@@ -64,7 +64,7 @@ export function About() {
                             </li>
                         </ul>
 
-                        <a href="#"
+                        <a href={`https://wa.me/351911992009?text= Olá vim pelo site e gostaria de saber como que faço, para abrir um processo contra uma empresa`}
                             target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold 
                     flex items-center justify-center w-fit gap-2 hover:scale-102 duration-300 text-white">
