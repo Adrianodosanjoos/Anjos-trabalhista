@@ -32,7 +32,7 @@ export function Contactos() {
                             target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold 
                     items-center justify-center w-fit gap-2 hover:scale-102 duration-300 opacity-80">
-                            <WhatsappLogoIcon className='w-5 h-5' />
+                            <WhatsappLogoIcon className='w-3 h-3' />
                             Contacto via WhatApp
                         </a>
     </div>
