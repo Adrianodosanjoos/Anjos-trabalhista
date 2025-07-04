@@ -28,7 +28,7 @@ export function Contactos() {
              <h1 className="text-3xl text-black font-bold text-center">Conte conosco</h1>
 
 
-       <a href="#"
+       <a href={`https://wa.me/351911992009`}
                             target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold 
                     items-center justify-center w-fit gap-2 hover:scale-102 duration-300 opacity-80 flex">
