@@ -24,9 +24,8 @@ export function Contactos() {
 
    
     <div className='relative flex mx-aut py-2.5 justify-center md:gap-10'>
-             <div data-aos="fade-left">
              <h1 className="text-3xl text-black font-bold text-center" data-aos="fade-left">Conte conosco</h1>
-             </div>
+          
 
        <a href={`https://wa.me/351911992009?text= Olá vim pelo site e gostaria de saber como que faço, para abrir um processo contra uma empresa`}  
                             target="_blank"
