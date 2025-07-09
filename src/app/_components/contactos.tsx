@@ -24,7 +24,7 @@ export function Contactos() {
 
    
     <div className='relative flex mx-aut py-2.5 justify-center md:gap-10'>
-             <div className='data-aos="fade-left"'>
+             <div data-aos="fade-left">
              <h1 className="text-3xl text-black font-bold text-center">Conte conosco</h1>
              </div>
 
