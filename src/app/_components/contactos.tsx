@@ -28,11 +28,11 @@ export function Contactos() {
              <h1 className="text-3xl text-black font-bold text-center">Conte conosco</h1>
              </div>
 
-       <a href={`https://wa.me/351911992009?text= Olá vim pelo site e gostaria de saber como que faço, para abrir um processo contra uma empresa`}
+       <a href={`https://wa.me/351911992009?text= Olá vim pelo site e gostaria de saber como que faço, para abrir um processo contra uma empresa`}  data-aos="fade-right"
                             target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold 
                     items-center justify-center w-fit gap-2 hover:scale-102 duration-300 opacity-80 flex">
-                            <WhatsappLogoIcon className='w-8 h-8 md:w-5 md:h-5'  data-aos="fade-right"/>
+                            <WhatsappLogoIcon className='w-8 h-8 md:w-5 md:h-5'/>
                             Contacto via WhatApp
                         </a>
     </div>
